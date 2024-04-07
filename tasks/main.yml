@@ -1,0 +1,14 @@
+- name: apache
+  apt:
+    name: apache2
+    state: present
+
+- name: php
+  apt:
+    name: php 
+    state: present
+
+- name: php-mysql
+  apt:
+    name: php-mysql
+    state: present
